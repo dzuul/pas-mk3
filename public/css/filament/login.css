@@ -1,0 +1,87 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(to bottom, #5F68E2, #34397C);
+    min-height: 100vh; /* Ensures the gradient covers the entire viewport height */
+    background-size: 100% 100vh; /* Make sure the gradient adjusts to the viewport height */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login container */
+.login-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #5F68E2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #4b54d3;
+}
+
+.form-group a {
+    color: #5F68E2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.form-group a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Slight transparent background */
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
